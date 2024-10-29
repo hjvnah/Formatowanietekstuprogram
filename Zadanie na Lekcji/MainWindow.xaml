@@ -7,20 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="LightBlue">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="131*"/>
-            <ColumnDefinition Width="269*"/>
-        </Grid.ColumnDefinitions>
+      
         <TextBlock Background="White" TextWrapping="Wrap" Margin="165,25,135,192" Grid.ColumnSpan="2">Wprowadz tekst</TextBlock>
-        <CheckBox Content="Pogrubienie" Margin="422,99,26,314" Grid.Column="1"/>
-        <CheckBox Content="Kursywa" Margin="422,41,26,369" Grid.Column="1"/>
-        <CheckBox Content="Podkreslenie" Margin="422,70,26,340" Grid.Column="1"/>
-        <Button Content="Prawo" Margin="22,38,130,375" Background="white"/>
-        <Button Content="Lewo" Margin="22,73,130,340" Background="white"/>
-        <Button Content="Srodek" Margin="22,110,130,303" Background="white"/>
-        <Button Content="Justowanie" Margin="22,148,130,265" Background="white"/>
-        <Slider Margin="422,184,26,220" Grid.Column="1" />
-        <TextBlock TextWrapping="Wrap" Text="Rozmiar Czcionki" Margin="422,159,-1,250" Grid.Column="1"/>
+        <CheckBox Content="Pogrubienie" Margin="682,99,-234,314"/>
+        <CheckBox Content="Kursywa" Margin="682,46,-234,364"/>
+        <CheckBox Content="Podkreslenie" Margin="682,75,-234,335"/>
+        <Button Content="Prawo" Margin="22,38,656,375" Background="white"/>
+        <Button Content="Lewo" Margin="22,73,656,340" Background="white"/>
+        <Button Content="Srodek" Margin="22,110,656,303" Background="white"/>
+        <Button Content="Justowanie" Margin="22,148,656,265" Background="white"/>
+        <Slider Margin="682,181,25,223" />
+        <TextBlock TextWrapping="Wrap" Text="Rozmiar Czcionki" Margin="682,156,2,253"/>
 
 
 
