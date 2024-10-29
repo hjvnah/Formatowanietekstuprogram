@@ -6,7 +6,17 @@
         xmlns:local="clr-namespace:Zadanie_na_Lekcji"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Background="LightBlue">
+        <TextBlock Background="White" TextWrapping="Wrap" Margin="165,25,135,192">Wprowadz tekst</TextBlock>
+        <CheckBox Content="Pogrubienie" Margin="684,99,26,314"/>
+        <CheckBox Content="Kursywa" Margin="684,41,26,369"/>
+        <CheckBox Content="Podkreslenie" Margin="684,70,26,340"/>
+        <Button Content="Prawo" Margin="22,38,668,375" Background="white"/>
+        <Button Content="Lewo" Margin="22,73,668,340" Background="white"/>
+        <Button Content="Srodek" Margin="22,110,668,303" Background="white"/>
+        <Button Content="Justowanie" Margin="22,148,668,265" Background="white"/>
+
+
 
     </Grid>
 </Window>
