@@ -5,19 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Zadanie_na_Lekcji"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid Background="LightBlue">
-      
-        <TextBlock Background="White" TextWrapping="Wrap" Margin="165,25,135,192" Grid.ColumnSpan="2">Wprowadz tekst</TextBlock>
-        <CheckBox Content="Pogrubienie" Margin="682,99,-234,314"/>
-        <CheckBox Content="Kursywa" Margin="682,46,-234,364"/>
-        <CheckBox Content="Podkreslenie" Margin="682,75,-234,335"/>
-        <Button Content="Prawo" Margin="22,38,656,375" Background="white"/>
-        <Button Content="Lewo" Margin="22,73,656,340" Background="white"/>
-        <Button Content="Srodek" Margin="22,110,656,303" Background="white"/>
-        <Button Content="Justowanie" Margin="22,148,656,265" Background="white"/>
-        <Slider Margin="682,181,25,223" />
-        <TextBlock TextWrapping="Wrap" Text="Rozmiar Czcionki" Margin="682,156,2,253"/>
+        Title="MainWindow" Height="548" Width="800">
+    <Grid Background="LightGray">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="679*"/>
+            <ColumnDefinition Width="121*"/>
+        </Grid.ColumnDefinitions>
+        <CheckBox Content="Pogrubienie" Margin="655,83,52,432" Grid.ColumnSpan="2"/>
+        <CheckBox Content="Kursywa" Margin="655,35,52,473" Grid.ColumnSpan="2"/>
+        <CheckBox Content="Podkreslenie" Margin="655,59,40,454" Grid.ColumnSpan="2"/>
+        <Button Content="Prawo" Margin="37,25,520,473" Background="white"/>
+        <Button Content="Lewo" Margin="37,77,520,418" Background="white"/>
+        <Button Content="Srodek" Margin="37,131,520,363" Background="white"/>
+        <Button Content="Justowanie" Margin="37,186,520,310" Background="white"/>
+        <Slider Margin="661,166,46,328" Grid.ColumnSpan="2" />
+        <TextBlock TextWrapping="Wrap" Text="Rozmiar Czcionki" Margin="661,150,34,351" Grid.ColumnSpan="2"/>
+        <TextBlock Background="White" TextWrapping="Wrap" Margin="192,25,54,295"><Run Text="Wprowadz tekst"/></TextBlock>
 
 
 
