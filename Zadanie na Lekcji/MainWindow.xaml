@@ -20,9 +20,15 @@
         <Button Content="Justowanie" Margin="37,186,520,310" Background="white"/>
 
         <TextBlock TextWrapping="Wrap" Text="Rozmiar Czcionki" Margin="661,150,34,351" Grid.ColumnSpan="2"/>
-        <TextBox Background="White" TextWrapping="Wrap" Margin="192,25,54,295">Wprowadz tekst </TextBox>
-       
+        <TextBox Background="White" TextWrapping="Wrap" Margin="192,25,54,295">Wprowadz tekst</TextBox>
+
         <Slider HorizontalAlignment="Left" Margin="654,166,0,0" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
+        <TextBlock TextWrapping="Wrap" Text="Kolor Czcionki" Margin="58,253,541,255"/>
+        <RadioButton Content="zielony" Margin="55,277,538,241" Background="lightgreen"/>
+        <RadioButton Content="różowy" Margin="55,296,538,222" Background="LightPink"/>
+        <RadioButton Content="niebieski" Margin="55,315,538,203" Background="LightBlue"/>
+        <RadioButton Content="fioletowy" Margin="55,334,538,184" Background="MediumPurple"/>
+        <RadioButton Content="standardowy" Background="black" Grid.ColumnSpan="2" Margin="55,353,66,-353"></RadioButton>
 
 
 
