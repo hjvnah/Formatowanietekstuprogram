@@ -18,9 +18,11 @@
         <Button Content="Lewo" Margin="37,77,520,418" Background="white"/>
         <Button Content="Srodek" Margin="37,131,520,363" Background="white"/>
         <Button Content="Justowanie" Margin="37,186,520,310" Background="white"/>
-        <Slider Margin="661,166,46,328" Grid.ColumnSpan="2" />
+
         <TextBlock TextWrapping="Wrap" Text="Rozmiar Czcionki" Margin="661,150,34,351" Grid.ColumnSpan="2"/>
-        <TextBlock Background="White" TextWrapping="Wrap" Margin="192,25,54,295"><Run Text="Wprowadz tekst"/></TextBlock>
+        <TextBox Background="White" TextWrapping="Wrap" Margin="192,25,54,295">Wprowadz tekst</TextBox>
+       
+        <Slider HorizontalAlignment="Left" Margin="654,166,0,0" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
 
 
 
