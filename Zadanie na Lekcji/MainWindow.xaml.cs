@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using Microsoft.VisualBasic;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -20,20 +21,38 @@ namespace Zadanie_na_Lekcji
         {
             InitializeComponent();
         }
-
-        private void Pogrubienie_Click(object sender, System.EventArgs e)
+       
+        private void PogrubienieChecked(object sender, RoutedEventArgs e)
         {
-           
-            if (Pogrubienie.Checked)
-            {
-                Pogrubienie.Text = "Checked";
-            }
-            else
-            {
-                Pogrubienie.Text = "Unchecked";
-            }
+
+
+            wprtekst.FontWeight = FontWeights.Bold;
         }
 
+        private void PogrubienieUnchecked(object sender, RoutedEventArgs e)
+        {
+            wprtekst.Text = "The CheckBox is unchecked.";
+        }
+
+        private void PodkreslenieChecked(object sender, RoutedEventArgs e)
+        {
+            wprtekst.Text = "The CheckBox is checked.";
+        }
+
+        private void PodkreslenieUnchecked(object sender, RoutedEventArgs e)
+        {
+            wprtekst.Text = "The CheckBox is unchecked.";
+        }
+
+        private void KursywaChecked(object sender, RoutedEventArgs e)
+        {
+            wprtekst.Text = "The CheckBox is checked.";
+        }
+
+        private void KursywaUnchecked(object sender, RoutedEventArgs e)
+        {
+            wprtekst.Text = "The CheckBox is unchecked.";
+        }
 
     }
 }

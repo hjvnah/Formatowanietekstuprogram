@@ -11,9 +11,9 @@
             <ColumnDefinition Width="679*"/>
             <ColumnDefinition Width="121*"/>
         </Grid.ColumnDefinitions>
-        <CheckBox x:Name="Pogrubienie" Click="Pogrubienie_Click" Content="Pogrubienie" Margin="655,83,52,432" Grid.ColumnSpan="2"/>
-        <CheckBox x:Name="Kursywa" Content="Kursywa" Margin="655,35,52,473" Grid.ColumnSpan="2"/>
-        <CheckBox x:Name="Podkreslenie" Content="Podkreslenie" Margin="655,59,40,454" Grid.ColumnSpan="2"/>
+        <CheckBox x:Name="Pogrubienie" Checked="PogrubienieChecked" Unchecked="PogrubienieUnchecked" Content="Pogrubienie" Margin="655,83,52,432" Grid.ColumnSpan="2"/>
+        <CheckBox x:Name="Kursywa" Checked="KursywaChecked" Unchecked="KursywaUnchecked" Content="Kursywa" Margin="655,35,52,473" Grid.ColumnSpan="2"/>
+        <CheckBox x:Name="Podkreslenie" Checked="PodkreslenieChecked" Unchecked="PodkreslenieUnchecked" Content="Podkreslenie" Margin="655,59,40,454" Grid.ColumnSpan="2"/>
         <ToggleButton x:Name="Prawo" Content="Prawo" Margin="37,25,520,473" Background="white"/>
         <ToggleButton x:Name="Lewo" Content="Lewo" Margin="37,77,520,418" Background="white"/>
         <ToggleButton x:Name="Srodek" Content="Srodek" Margin="37,131,520,363" Background="white"/>
