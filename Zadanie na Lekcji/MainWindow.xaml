@@ -14,21 +14,21 @@
         <CheckBox x:Name="Pogrubienie" Checked="PogrubienieChecked" Unchecked="PogrubienieUnchecked" Content="Pogrubienie" Margin="655,83,52,432" Grid.ColumnSpan="2"/>
         <CheckBox x:Name="Kursywa" Checked="KursywaChecked" Unchecked="KursywaUnchecked" Content="Kursywa" Margin="655,35,52,473" Grid.ColumnSpan="2"/>
         <CheckBox x:Name="Podkreslenie" Checked="PodkreslenieChecked" Unchecked="PodkreslenieUnchecked" Content="Podkreslenie" Margin="655,59,40,454" Grid.ColumnSpan="2"/>
-        <ToggleButton x:Name="Prawo" Content="Prawo" Margin="37,25,520,473" Background="white"/>
-        <ToggleButton x:Name="Lewo" Content="Lewo" Margin="37,77,520,418" Background="white"/>
-        <ToggleButton x:Name="Srodek" Content="Srodek" Margin="37,131,520,363" Background="white"/>
-        <ToggleButton x:Name="Justowanie" Content="Justowanie" Margin="38,186,520,310" Background="white"/>
+        <Button x:Name="Prawo" Click="prawotxt"  Content="Prawo" Margin="37,25,520,473" Background="white"/>
+        <Button x:Name="Lewo" Click="lewotxt"  Content="Lewo" Margin="37,77,520,418" Background="white"/>
+        <Button x:Name="Srodek" Click="srodektxt"  Content="Srodek" Margin="37,131,520,363" Background="white"/>
+        <Button x:Name="Justowanie" Click="justtxt" Content="Justowanie" Margin="38,186,520,310" Background="white"/>
 
         <TextBlock TextWrapping="Wrap" Text="Rozmiar Czcionki" Margin="661,150,10,351" Grid.ColumnSpan="2"/>
-        <TextBox x:Name="wprtekst" Background="White" TextWrapping="Wrap" Margin="192,25,54,295">Wprowadz tekst</TextBox>
+        <TextBox x:Name="wprtekst"  HorizontalAlignment="Left" Background="White" TextWrapping="Wrap" Margin="192,25,0,295" Width="442">Wprowadz tekst</TextBox>
 
-        <Slider x:Name="slider" HorizontalAlignment="Left" Margin="654,166,0,0" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
+        <Slider x:Name="slider"  ValueChanged="zmianarozmiaru" Minimum="17" Maximum="50" HorizontalAlignment="Left" Margin="654,166,0,0" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
         <TextBlock TextWrapping="Wrap" Text="Kolor Czcionki" Margin="58,253,498,255"/>
-        <RadioButton x:Name="rbzielony" Content="zielony" Margin="55,277,538,241" Background="lightgreen"/>
-        <RadioButton x:Name="rbrozowy" Content="różowy" Margin="55,296,538,222" Background="LightPink"/>
-        <RadioButton x:Name="rbniebieski" Content="niebieski" Margin="55,315,538,203" Background="LightBlue"/>
-        <RadioButton x:Name="rbfioletowy" Content="fioletowy" Margin="55,334,538,184" Background="MediumPurple"/>
-        <RadioButton x:Name="rbstandardowy" Content="standardowy" Background="black" Grid.ColumnSpan="2" Margin="55,353,66,-353"></RadioButton>
+        <RadioButton x:Name="rbzielony" Checked="zielonyzaz" Content="zielony" Margin="55,277,538,241" Background="lightgreen"/>
+        <RadioButton x:Name="rbrozowy" Checked="rozowyzaz" Content="różowy" Margin="55,296,538,222" Background="LightPink"/>
+        <RadioButton x:Name="rbniebieski" Checked="niebieskizaz" Content="niebieski" Margin="55,315,538,203" Background="LightBlue"/>
+        <RadioButton x:Name="rbfioletowy" Checked="fioletowyzaz" Content="fioletowy" Margin="55,334,538,184" Background="MediumPurple"/>
+        <RadioButton x:Name="rbstandardowy" Checked="standardowyzaz" Content="standardowy" Background="DarkGray" Grid.ColumnSpan="2" Margin="55,353,66,-353"></RadioButton>
 
 
 
