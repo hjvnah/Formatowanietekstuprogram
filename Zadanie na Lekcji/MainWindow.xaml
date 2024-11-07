@@ -20,7 +20,7 @@
         <Button x:Name="Justowanie" Click="justtxt" Content="Justowanie" Margin="38,186,520,310" Background="white"/>
 
         <TextBlock TextWrapping="Wrap" Text="Rozmiar Czcionki" Margin="661,150,10,351" Grid.ColumnSpan="2"/>
-        <TextBox x:Name="wprtekst"  HorizontalAlignment="Left" Background="White" TextWrapping="Wrap" Margin="192,25,0,295" Width="442">Wprowadz tekst</TextBox>
+        <TextBox x:Name="wprtekst" SpellCheck.IsEnabled="True" HorizontalAlignment="Left" Background="White" TextWrapping="Wrap" Margin="192,25,0,295" Width="442">Wprowadź tekst</TextBox>
 
         <Slider x:Name="slider"  ValueChanged="zmianarozmiaru" Minimum="17" Maximum="50" HorizontalAlignment="Left" Margin="654,166,0,0" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
         <TextBlock TextWrapping="Wrap" Text="Kolor Czcionki" Margin="58,253,498,255"/>
