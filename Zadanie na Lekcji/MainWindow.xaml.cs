@@ -19,11 +19,21 @@ namespace Zadanie_na_Lekcji
         public MainWindow()
         {
             InitializeComponent();
-
-
-           
         }
 
-       
+        private void Pogrubienie_Click(object sender, System.EventArgs e)
+        {
+           
+            if (Pogrubienie.Checked)
+            {
+                Pogrubienie.Text = "Checked";
+            }
+            else
+            {
+                Pogrubienie.Text = "Unchecked";
+            }
+        }
+
+
     }
 }

@@ -11,7 +11,7 @@
             <ColumnDefinition Width="679*"/>
             <ColumnDefinition Width="121*"/>
         </Grid.ColumnDefinitions>
-        <CheckBox x:Name="Pogrubienie" Content="Pogrubienie" Margin="655,83,52,432" Grid.ColumnSpan="2"/>
+        <CheckBox x:Name="Pogrubienie" Click="Pogrubienie_Click" Content="Pogrubienie" Margin="655,83,52,432" Grid.ColumnSpan="2"/>
         <CheckBox x:Name="Kursywa" Content="Kursywa" Margin="655,35,52,473" Grid.ColumnSpan="2"/>
         <CheckBox x:Name="Podkreslenie" Content="Podkreslenie" Margin="655,59,40,454" Grid.ColumnSpan="2"/>
         <ToggleButton x:Name="Prawo" Content="Prawo" Margin="37,25,520,473" Background="white"/>
@@ -24,11 +24,11 @@
 
         <Slider x:Name="slider" HorizontalAlignment="Left" Margin="654,166,0,0" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
         <TextBlock TextWrapping="Wrap" Text="Kolor Czcionki" Margin="58,253,498,255"/>
-        <RadioButton x:Name="zielony" Content="zielony" Margin="55,277,538,241" Background="lightgreen"/>
-        <RadioButton x:Name="rozowy" Content="różowy" Margin="55,296,538,222" Background="LightPink"/>
-        <RadioButton x:Name="niebieski" Content="niebieski" Margin="55,315,538,203" Background="LightBlue"/>
-        <RadioButton x:Name="fioletowy" Content="fioletowy" Margin="55,334,538,184" Background="MediumPurple"/>
-        <RadioButton x:Name="standardowy" Content="standardowy" Background="black" Grid.ColumnSpan="2" Margin="55,353,66,-353"></RadioButton>
+        <RadioButton x:Name="rbzielony" Content="zielony" Margin="55,277,538,241" Background="lightgreen"/>
+        <RadioButton x:Name="rbrozowy" Content="różowy" Margin="55,296,538,222" Background="LightPink"/>
+        <RadioButton x:Name="rbniebieski" Content="niebieski" Margin="55,315,538,203" Background="LightBlue"/>
+        <RadioButton x:Name="rbfioletowy" Content="fioletowy" Margin="55,334,538,184" Background="MediumPurple"/>
+        <RadioButton x:Name="rbstandardowy" Content="standardowy" Background="black" Grid.ColumnSpan="2" Margin="55,353,66,-353"></RadioButton>
 
 
 
