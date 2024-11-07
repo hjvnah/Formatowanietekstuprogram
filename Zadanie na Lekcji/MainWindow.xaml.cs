@@ -19,6 +19,11 @@ namespace Zadanie_na_Lekcji
         public MainWindow()
         {
             InitializeComponent();
+
+
+           
         }
+
+       
     }
 }
